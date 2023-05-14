@@ -10,6 +10,14 @@
   justify-content: space-between;  
 }
 
+.nav-link{
+  color:#ff6a7f;
+}
+
+.nav-link:hover{
+  color:#7f3564;
+}
+
 /* Estilos generales */
 
 section {
