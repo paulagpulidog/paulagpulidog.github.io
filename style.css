@@ -21,28 +21,30 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Lobster', cursive;
+  color:#ff6a7f
 }
 
 .seccion-oscura {
   color: white;
-  background-color: #1b1b32;
+  background-color: #562c5a;
 }
 
 .seccion-clara {
-  color: black;
+  color: #7f3564;
   background-color: white;
 }
 
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Lobster', cursive;
+  color: #ff6a7f;
 }
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  color: #7f3564;
 }
 
 .seccion-texto {
@@ -52,10 +54,20 @@ h1 {
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
+  color: white;
+  background-color: #ff6a7f;
+  border-color: #562c5a;
+}
+
+.btn-info:hover {
+  color: white;
+  margin: 20px;
+  background-color: #562c5a;
+  border-color: #ff6a7f;
 }
 
 .texto-negro {
-  color: black;
+  color: #ff6a7f;
 }
 
 .texto-blanco {
@@ -78,11 +90,13 @@ h1 {
   width: 200px;
   height: 200px;
   margin: 20px;
+  border-style:solid;
+  border-color: #ff6a7f;
 }
 
 .hero-principal h2 {
   font-size: 1.5rem;
-  color: #615151;
+  color: #562c5a !important;
 }
 
 /* Sobre mi */
@@ -105,7 +119,7 @@ h1 {
 
 .experiencia .columna {
   padding: 20px;
-  border: 2px solid #8080804d;
+  border: 2px solid #ff6a7f;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,13 +129,13 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #1b1b32;
+  background-color: #562c5a;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: #b94872;
+  background-color: #ff6a7f;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -140,6 +154,10 @@ h1 {
 
 .badge {
   margin: 5px;
+}
+
+.text-bg-primary{
+  background-color: #ff6a7f !important;
 }
 
 /* Proyectos */
@@ -184,6 +202,7 @@ h1 {
 
 .proyecto:hover img {
   opacity: 0.2;
+  background-color: #ff6a7f;
 }
 
 .proyecto:hover .overlay {
@@ -195,7 +214,7 @@ h1 {
 }
 
 .overlay i {
-  color: black;
+  color: #7f3564;
   font-size: 60px;
   margin: 10px;
 }
@@ -211,10 +230,18 @@ h1 {
   width: 80%;
   max-width: 600px;
   margin: 20px;
+  border-color: #ff6a7f;
 }
 
 .articulos .card-header {
   font-weight: bold;
+  background-color: #7f3564;
+  color: white;
+}
+
+.list-group-item{
+  border-color: #ff6a7f;
+  color: #7f3564;
 }
 
 /* Testimonios */
@@ -244,6 +271,8 @@ h1 {
   height: 150px;
   width: 150px;
   margin: 10px 10px 20px 10px;
+  border-style:solid;
+  border-color: #ff6a7f;
 }
 
 .testimonio-texto {
@@ -266,9 +295,13 @@ h1 {
   font-size: 1.2rem;
 }
 
+.cliente{
+  color: #ff6a7f !important;
+}
+
 .testimonio-info .cargo {
   font-size: 0.9rem;
-  color: #656060;
+  color: #b94872;
 }
 
 /* Contacto */
@@ -281,9 +314,9 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #ff6a7f;
   border-radius: 10px;
-  box-shadow: 0px 1px 4px 1px white;
+  box-shadow: 0px 1px 4px 1px #ffa388;
 }
 
 .contacto .row {
@@ -310,7 +343,7 @@ h1 {
 
 .contacto button:hover {
   background-color: white;
-  color: black;
+  color: #562c5a;
 }
 
 .contacto button i {
@@ -320,7 +353,7 @@ h1 {
 }
 
 .contacto button:hover i {
-  color: black;
+  color: #562c5a;
 }
 
 /* Pie de pagina (footer) */
@@ -363,16 +396,16 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  border: 2px solid #ff6a7f;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: #562c5a;
 }
 
 .derechos-de-autor {
   font-size: 15px;
-  color: #aeaeae;
+  color: #b94872;
   padding: 20px;
 }
 
