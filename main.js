@@ -6,11 +6,14 @@ let typewriter = new Typewriter(app, {
 });
  
 typewriter
-  .pauseFor(2000)
+  .pauseFor(600)
   .typeString('I am a Petroleum Engineer student')
-  .pauseFor(2000)
-  .deleteChars(10)
+  .pauseFor(1000)
+  .deleteChars(40)
   .typeString('I am a Front-End Web Developer')
-  .pauseFor(200)
+  .pauseFor(1000)
+  .deleteChars(40)
+  .typeString('I am a woman in STEM')
+  .pauseFor(1000)
   .deleteChars(10)
   .start();
