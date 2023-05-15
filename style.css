@@ -1,3 +1,7 @@
+body {
+  font-family:'Raleway', sans-serif;
+}
+
 /* Barra de navegacion */
 
 .navbar {
@@ -48,6 +52,12 @@ h1 {
   padding: 15px 0;
   font-family: 'Lobster', cursive;
   color: #ff6a7f;
+}
+
+.titulo-alterno{
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family:'Playfair Display', serif;
 }
 
 .seccion-descripcion {
@@ -104,7 +114,8 @@ h1 {
 
 .hero-principal h2 {
   font-size: 1.5rem;
-  color: #562c5a !important;
+  color: #562c5a !important; /*typewriter*/
+  font-family: 'Playfair Display', serif;
 }
 
 /* Sobre mi */
@@ -152,6 +163,7 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
+  font-family:'Playfair Display', serif;
 }
 
 .badges-contenedor {
@@ -202,6 +214,7 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 0;
+  font-family: 'Playfair Display', serif;
 }
 
 .proyecto {
@@ -245,6 +258,7 @@ h1 {
   font-weight: bold;
   background-color: #7f3564;
   color: white;
+  font-family:'Playfair Display', serif;
 }
 
 .list-group-item{
@@ -285,9 +299,9 @@ h1 {
 
 .testimonio-texto {
   max-width: 70%;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .testimonio-info {
@@ -300,16 +314,18 @@ h1 {
 }
 
 .testimonio-footer .cliente {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .cliente{
   color: #ff6a7f !important;
+  font-family:'Playfair Display', serif;
 }
 
 .testimonio-info .cargo {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #b94872;
+  font-family:'Playfair Display', serif;
 }
 
 /* Contacto */
@@ -340,13 +356,14 @@ h1 {
 
 .contacto button {
   color: white;
-  font-weight: bold;
   background-color: transparent;
   border: 2px solid white;
-  padding: 1.25em 2em;
+  padding: 1.2em 1.9em;
   margin: 10px;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3rem;
 }
 
 .contacto button:hover {
@@ -356,7 +373,7 @@ h1 {
 
 .contacto button i {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   transition: all 0.2s ease-in-out;
 }
 
@@ -377,10 +394,11 @@ footer {
 }
 
 .footer-texto {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 20px;
   margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Lobster', cursive;
+  color:#ff6a7f;
 }
 
 .iconos-redes-sociales a {
