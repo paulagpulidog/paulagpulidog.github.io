@@ -44,7 +44,7 @@ h1 {
 
 .seccion-clara {
   color: #7f3564;
-  background-color: white;
+  background-color: #f5f6f7;
 }
 
 .seccion-titulo {
@@ -84,6 +84,21 @@ h1 {
   border-color: #ff6a7f;
 }
 
+.btn-info-oscuro {
+  font-size: 1.1rem;
+  margin: 20px;
+  color: white;
+  background-color: #562c5a;
+  border-color: #ff6a7f;
+}
+
+.btn-info-oscuro:hover {
+  color: white;
+  margin: 20px;
+  background-color: #ff6a7f;
+  border-color: #562c5a;
+}
+
 .texto-negro {
   color: #ff6a7f;
 }
@@ -101,7 +116,7 @@ h1 {
 }
 
 .hero-principal {
-  padding: 3rem;
+  padding: 0rem;
 }
 
 .hero-imagen-desarrollador {
@@ -118,15 +133,29 @@ h1 {
   font-family: 'Playfair Display', serif;
 }
 
+/*.hero-inferior-imagen {
+  width: 2000px;
+  height: 200px;
+  margin: 0px;
+}*/
+
+.hero-inferior {
+  background-image: url(imagenes/oilngas.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /*background-attachment: fixed; util para deslizar*/ 
+  min-height: 320px;
+}
+
 /* Sobre mi */
 
 .sobre-mi {
-  height: 500px;
+  height: 400px;
   padding: 10px;
 }
 
 .sobre-mi .contenedor {
-  max-width: 600px;
+  max-width: 800px;
   text-align: center;
 }
 
@@ -466,6 +495,7 @@ footer {
 
 @media screen and (min-width: 700px) {
   .hero-inferior-imagen {
-    max-width: 600px;
+    width: fit-content;
   }
 }
+
