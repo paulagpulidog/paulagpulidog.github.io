@@ -137,21 +137,22 @@ h1 {
   width: 2000px;
   height: 200px;
   margin: 0px;
-}*/
+}
 
+/*
 .hero-inferior {
   background-image: url(imagenes/oilngas.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /*background-attachment: fixed; util para deslizar*/ 
-  min-height: 320px;
-}
+  /*background-attachment: fixed; util para deslizar 
+  min-height: 220px;
+}*/
 
 /* Sobre mi */
 
 .sobre-mi {
-  height: 400px;
-  padding: 10px;
+  height: 500px;
+  padding: 35px;
 }
 
 .sobre-mi .contenedor {
